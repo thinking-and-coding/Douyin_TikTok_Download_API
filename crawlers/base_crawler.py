@@ -63,7 +63,7 @@ class BaseCrawler:
             proxies: dict = None,
             max_retries: int = 3,
             max_connections: int = 50,
-            timeout: int = 10,
+            timeout: int = 30,
             max_tasks: int = 50,
             crawler_headers: dict = {},
     ):
